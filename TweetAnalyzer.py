@@ -98,7 +98,7 @@ def main():
 	# creating object of TwitterClient Class
 	api = TweetAnalyzer()
 	# calling function to get tweets
-	strQuery = 'Beast Movie'
+	strQuery = 'COVID19 pandemic'
 	tweets = api.get_tweets(query = strQuery, count = 2000)
 	try:
 		# picking positive tweets from tweets
